@@ -1,6 +1,6 @@
-# Reverse Shell Project
+# Reverse Shell
 
-Este projeto cria uma conexão de shell reversa entre um alvo e um servidor, permitindo controle remoto da máquina alvo através de um servidor Linux.
+Este projeto cria uma conexão de reverse shell entre um alvo e um servidor, permitindo controle remoto da máquina alvo através de um servidor Linux.
 
 ## Como funciona:
 
