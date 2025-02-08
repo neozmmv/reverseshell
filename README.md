@@ -16,4 +16,5 @@ Este projeto cria uma conexão de reverse shell entre um alvo e um servidor, per
 
 3. **Máquina Alvo:**
    - Uma vez que o servidor está escutando a porta escolhida, é hora da máquina alvo executar o código Python. Uma vez que isso for feito, o servidor terá acesso ao terminal do powershell do PC alvo.
-   - Acesse o arquivo "reverseshell.py" e modifique as variáveis "IP" e "PORT" para satisfazer a configuração do seu servidor. Após isso, execute o script e o servidor terá acesso ao terminal.
+   - Acesse o arquivo "reverseshell.py" e modifique as variáveis "IP" e "PORT" para satisfazer a configuração do seu servidor. Após isso, execute o script como administrador e o servidor terá acesso ao terminal.
+   - **Talvez seja necessário desativar o antivírus e o Windows Defender para o script funcionar!**
