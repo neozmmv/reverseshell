@@ -7,7 +7,7 @@ Este projeto cria uma conexão de reverse shell entre um alvo e um servidor, per
 1. **Servidor:**
    - O servidor está configurado para ouvir uma porta específica usando `Netcat` (ou `nc`).
    - Se certifique que o seu servidor tem a porta desejada aberta.
-   - Ele aguarda a conexão de um cliente (a máquina alvo) que se conectará ao servidor, dando acesso ao terminal do windows..
+   - Ele aguarda a conexão de um cliente (a máquina alvo) que se conectará ao servidor, dando acesso ao terminal do Windows.
 
 2. **Configuração do `Netcat`:**
    - O servidor deve executar o seguinte comando no terminal para escutar a porta:
